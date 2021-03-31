@@ -1,7 +1,12 @@
 {
   "me": {
-    "profession": "Enginyer Informátic",
+    "profession": "Enginyer Informàtic",
     "age": "24 anys",
     "street": "C/ Canone Baranera<br>Badalona, Barcelona, 08911"
+  },
+  "languages": {
+    "catalan": "CATALÀ - Natiu",
+    "spanish": "CASTELLÀ - Natiu",
+    "english": "ANGLÈS - Intermig (B+)"
   }
 }

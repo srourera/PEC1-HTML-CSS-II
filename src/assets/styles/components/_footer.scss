@@ -1,0 +1,36 @@
+/*------------------------------------*\
+  # HEADER STYLES
+\*------------------------------------*/
+
+@use '../theme';
+
+/*ul*/
+.footer-languages {
+  padding-top: theme.$spacing-4;
+  padding-bottom: theme.$spacing-4;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: white;
+  list-style: none;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 theme.$spacing-4;
+    cursor: pointer;
+
+    > svg {
+      height: theme.$font-xl;
+      margin-right: theme.$spacing-2;
+    }
+
+    > span {
+      font-size: theme.$font-xl;
+    }
+
+    @include desktop {
+      justify-content: start;
+    }
+  }
+}

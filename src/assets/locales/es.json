@@ -1,5 +1,12 @@
 {
-  "author": {
-    "name": "Sergi"
+  "me": {
+    "profession": "Ingeniero Informático",
+    "age": "24 años",
+    "street": "C/ Canone Baranera<br>Badalona, Barcelona, 08911"
+  },
+  "languages": {
+    "catalan": "CATALÁN - Nativo",
+    "spanish": "CASTELLANO - Nativo",
+    "english": "INGLÉS - Intermedio (B+)"
   }
 }
