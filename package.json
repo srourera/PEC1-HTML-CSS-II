@@ -1,8 +1,8 @@
 {
-  "name": "pec-1",
+  "name": "pec-1-cv",
   "version": "0.0.1",
   "private": true,
-  "description": "PEC 1 - HTML & CSS II",
+  "description": "PEC 1 - Currículum Vitae Sergi Rourera",
   "scripts": {
     "parcel:serve": "parcel serve src/index.html -p 8123 --open",
     "parcel:build": "parcel build src/index.html --public-url ./ --dist-dir dist --no-source-maps --no-cache",
@@ -30,6 +30,7 @@
     "stylelint-scss": "^3.19.0"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.3"
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "vanilla-i18n": "^1.0.8"
   }
 }

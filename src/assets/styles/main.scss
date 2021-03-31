@@ -1,14 +1,6 @@
-/**
- * Use this file to import partials.
- * Do not include SCSS code in this file.
- */
-
-@import "variables";
-
-@import "layouts/home";
-
 @import "@fortawesome/fontawesome-free/css/all.css";
 
-/**
- * Do NOT include anything else in this file!
- */
+@import "base";
+@import "mixins";
+@import "components/layout";
+@import "components/header";

@@ -1,0 +1,25 @@
+/*------------------------------------*\
+  # LAYOUT TO USE GRID
+\*------------------------------------*/
+
+@use '../theme';
+
+.layout {
+  width: 100%;
+
+  &__content {
+    display: grid;
+    max-width: theme.$max-width;
+    padding: 0 theme.$spacing-4;
+    margin: 0 auto;
+
+    &--2 {
+      grid-template-columns: 1fr;
+      gap: theme.$spacing-4;
+
+      @include desktop {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+  }
+}

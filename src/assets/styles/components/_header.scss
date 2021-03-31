@@ -1,0 +1,73 @@
+/*------------------------------------*\
+  # HEADER STYLES
+\*------------------------------------*/
+
+@use '../theme';
+
+.header-presentation {
+  text-align: center;
+
+  &__photo {
+    height: theme.$h-photo;
+    padding: theme.$spacing-4;
+    padding-bottom: 0;
+  }
+
+  &__me {
+    padding: theme.$spacing-4;
+    text-transform: uppercase;
+
+    > h1 {
+      font-size: theme.$font-3xl;
+    }
+
+    > h2 {
+      font-size: theme.$font-2xl;
+      font-weight: normal;
+      color: white;
+
+      @include desktop {
+        width: min-content;
+      }
+    }
+  }
+
+  @include desktop {
+    display: flex;
+    align-items: flex-end;
+    text-align: left;
+  }
+}
+
+/*ul*/
+.header-information {
+  color: white;
+  list-style: none;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    margin: theme.$spacing-2 0;
+
+    > i {
+      padding: theme.$spacing-2;
+      margin-right: theme.$spacing-2;
+      background-color: black;
+      border-radius: 50%;
+
+      @include desktop {
+        margin-right: 0;
+        margin-left: theme.$spacing-2;
+      }
+    }
+
+    > span {
+      font-size: theme.$font-xl;
+    }
+
+    @include desktop {
+      text-align: right;
+      flex-direction: row-reverse;
+    }
+  }
+}

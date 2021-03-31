@@ -1,30 +1,38 @@
 <!DOCTYPE html>
-
-<html lang="en">
+<html lang="ca">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="initial-scale=1, viewport-fit=cover" />
-        <meta name="description" content="PEC 1 - HTML & CSS II" />
-        <link
-            rel="stylesheet"
-            type="text/css"
-            href="./assets/styles/main.scss"
-        />
-        <title>PEC 1 - HTML & CSS II</title>
+        <meta name="description" content="Currículum Vitae de Sergi Rourera" />
+        <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss" />
+        <title>CV Sergi Rourera</title>
     </head>
     <body>
-        <img
-            src="./assets/images/logo.png"
-            alt="Universitat Oberta de Catalunya"
-            class="uoc-logo"
-        />
-        <h1 class="uoc-title">Hello, UOC! <i class="fas fa-university"></i></h1>
-        <p>
-            This is a starter template for the Advanced HTML and CSS Tools
-            courses from the Master's Program in Multimedia Applications and the
-            Master's Program in Web App and Website Development at the
-            Universitat Oberta de Catalunya.
-        </p>
+        <header class="layout">
+            <div class="layout__content layout__content--2">
+                <div class="header-presentation">
+                    <img class="header-presentation__photo" src="assets/images/me.png" alt="Sergi Rourera" />
+                    <div class="header-presentation__me">
+                        <h1>Sergi Rourera</h1>
+                        <h2 data-i18n="me.profession">Enginyer Informátic</h2>
+                    </div>
+                </div>
+                <ul class="header-information">
+                    <li class="header-information__item">
+                        <i class="fa fa-envelope" aria-hidden="true"></i><span>sergirourerallaurado@gmail.com</span>
+                    </li>
+                    <li class="header-information__item">
+                        <i class="fa fa-phone" aria-hidden="true"></i><span>687 85 83 30</span>
+                    </li>
+                    <li class="header-information__item">
+                        <i class="fa fa-user" aria-hidden="true"></i></i><span data-i18n="me.age">24 anys</span>
+                    </li>
+                    <li class="header-information__item">
+                        <i class="fa fa-map-marker-alt" aria-hidden="true"></i><span data-i18n="me.street">C/ Canone Baranera<br>Badalona, Barcelona, 08911</span>
+                    </li>
+                </ul>
+            </div>
+        </header>
         <script src="./assets/scripts/main.js"></script>
     </body>
 </html>
