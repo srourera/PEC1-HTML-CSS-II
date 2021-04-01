@@ -13,13 +13,13 @@
   }
 
   &__title {
-    text-transform: uppercase;
     margin-bottom: theme.$spacing-2;
+    text-transform: uppercase;
   }
 
   &__company {
-    font-style: italic;
     margin-bottom: theme.$spacing-2;
+    font-style: italic;
   }
 
   &__date {

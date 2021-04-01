@@ -14,8 +14,8 @@
 
   &__icon {
     float: left;
-    font-size: theme.$font-xl;
     margin-right: theme.$spacing-2;
+    font-size: theme.$font-xl;
     color: color.scale(theme.$primary-color, $lightness: -30%);
   }
 
@@ -39,8 +39,8 @@
   }
 
   &__date {
-    color: color.scale(theme.$primary-color, $lightness: 20%);
     font-weight: bold;
+    color: color.scale(theme.$primary-color, $lightness: 20%);
   }
 }
 
@@ -49,8 +49,8 @@
 
   &__icon {
     float: left;
-    font-size: theme.$font-xl;
     margin-right: theme.$spacing-2;
+    font-size: theme.$font-xl;
     color: color.scale(theme.$primary-color, $lightness: -30%);
   }
 
@@ -60,21 +60,21 @@
   }
 
   &__title {
-    font-weight: normal;
     font-size: theme.$font-xl;
+    font-weight: normal;
     text-transform: uppercase;
   }
 
   &__list {
-    list-style: none;
     padding-left: theme.$spacing-4;
     text-transform: uppercase;
+    list-style: none;
   }
 
   &__date {
     float: right;
-    color: color.scale(theme.$primary-color, $lightness: 20%);
     font-size: theme.$font-sm;
     font-weight: bold;
+    color: color.scale(theme.$primary-color, $lightness: 20%);
   }
 }
