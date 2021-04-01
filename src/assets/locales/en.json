@@ -1,4 +1,8 @@
 {
+  "common": {
+    "now": "Now",
+    "lang-switcher": "Click on the languages to change the language of the CV"
+  },
   "me": {
     "profession": "Informatics Engineering",
     "age": "24 years",
@@ -8,5 +12,96 @@
     "catalan": "CATALAN - Native",
     "spanish": "SPANISH - Native",
     "english": "ENGLISH - Intermediate (B+)"
+  },
+  "sections": {
+    "presentation": {
+      "title": "Summary",
+      "p1": "I have studied Informatics Enginering, with a specialization in Software Enginering, and I am curently doing a UOC’s Master of Management and Development of WebSites and Web Applications. I have learned multiple programming languages, the most used methodologies and reusable programming methods.",
+      "p2": "I have a strong passion for programming and keep learning. I have worked in Inversa Serveis Informàtics and in Deloite where I have cooperated with big working teams in international projects using agile methodology. I am always testing my knowledge with smal personal projects to keep learning new features.",
+      "p3": "I have been working in an international Scrum project in Angular8 with microservices Java(Spring) hosted in AWS. Also performing QA tasks like Load&Performance tests with JMeter.",
+      "p4": "I am a passionate, focused and perfectionist worker, and an easygoing and friendly coleague."
+    },
+    "education": {
+      "title": "Education",
+      "1": {
+        "title": "Informatics Engineering Degree"
+      },
+      "2": {
+        "title": "Java Certificate"
+      },
+      "3": {
+        "title": "Master in Management and Development of WebSites and Web Applications"
+      },
+      "group": {
+        "1": {
+          "title": "Jedy Academy",
+          "1": {
+            "title": "HTML / CSS / JS Course",
+            "date": "07/2017"
+          },
+          "2": {
+            "title": "Computer Security Course",
+            "date": "07/2018"
+          },
+          "3": {
+            "title": "iOS Development Course",
+            "date": "02/2019"
+          }
+        },
+        "2": {
+          "title": "Udemy Academy",
+          "1": {
+            "title": "PHP & SQL Course",
+            "date": "09/2018"
+          },
+          "2": {
+            "title": "React Native Course",
+            "date": "01/2019"
+          },
+          "3": {
+            "title": "Angular Course",
+            "date": "04/2019"
+          }
+        }
+      }
+    },
+    "experience": {
+      "title": "Work Experience",
+      "1": {
+        "title": "Informatic internship",
+        "tasks": {
+          "p1": "- Internship"
+        }
+      },
+      "2": {
+        "title": "Software Developer",
+        "tasks": {
+          "p1": "- Responsible for web design and development, and responsible for projects of third-party client companies.",
+          "p2": "- HTML, CSS, Javascript, SQL and PHP development."
+        }
+      },
+      "3": {
+        "title": "Fullstack developer & QA",
+        "tasks": {
+          "p1": "- FrontEnd lead of and international project with Angular8, and its unit test with Karma and Jasmine.",
+          "p2": "- Scrum management with Jira, and using Git and Jenkins.",
+          "p3": "- Working with microservices implemented in Spring for the BackEnd of the system hosted in AWS.",
+          "p4": "- Use of Webex for international communications between clients and developers from other countries.",
+          "p5": "- QA tasks, with JMeter for the Performance tests."
+        }
+      },
+      "4": {
+        "title": "FullStack developer",
+        "tasks": {
+          "p1": "- Senior FrontEnd role, developing all the Housfy and MyHousfy Front system with Nuxt.",
+          "p2": "- Backend development with Laravel.",
+          "p3": "- CD / CI with Bitbucket pipelines.",
+          "p4": "- SEO & Performance optimization lead."
+        }
+      }
+    },
+    "skills": {
+      "title": "Skills"
+    }
   }
 }

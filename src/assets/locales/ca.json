@@ -16,15 +16,15 @@
   "sections": {
     "presentation": {
       "title": "Presentació",
-      "p1": "He estudiat Enginyeria Informàtica, amb una especialització en Enginyeria de Programari, i actualment estic fent un Màster en Gestió i Desenvolupament de llocs i aplicacions web de la UOC. He après diversos llenguatges de programació, el més utilitzat metodologies i mètodes de programació reutilitzables.",
-      "p2": "Tinc una forta passió per programar i continuar aprenent. He treballat a Inversa Serveis Informàtics i a Deloitte on he col·laborat amb grans equips de treball en projectes internacionals mitjançant una metodologia àgil. Sempre estic provant els meus coneixements amb petits projectes personals per continuar aprenent noves funcions.",
+      "p1": "He estudiat Enginyeria Informàtica, amb una especialització en Enginyeria de Programari, i actualment estic fent un Màster en Gestió i Desenvolupament de llocs i aplicacions web de la UOC. He après diversos llenguatges de programació, les metodologies més utilitzades i mètodes de programació reutilitzables.",
+      "p2": "Tinc una forta passió per programar i continuar aprenent. He treballat a Inversa Serveis Informàtics i a Deloitte on he col·laborat amb grans equips de treball en projectes internacionals mitjançant una metodologia àgil. Sempre estic provant els meus coneixements amb petits projectes personals per continuar aprenent noves funcionalitats",
       "p3": "He estat treballant en un projecte internacional Scrum a Angular8 amb microserveis Java (Spring) allotjat a AWS. També he realitzat tasques de QA, com ara proves deLoad&Performance amb JMeter.",
       "p4": "Sóc una persona treballadora, apassionada i perfeccionista. De tracte fàcil i agradable."
     },
     "education": {
       "title": "Educació",
       "1": {
-        "title": "Grau en Enginyeria Informática"
+        "title": "Grau en Enginyeria Informàtica"
       },
       "2": {
         "title": "Certificat Java"
@@ -68,15 +68,15 @@
     "experience": {
       "title": "Experiència",
       "1": {
-        "title": "Informátic",
+        "title": "Informàtic",
         "tasks": {
-          "p1": "- Prácticas"
+          "p1": "- Pràcticas"
         }
       },
       "2": {
         "title": "Desenvolupador Software",
         "tasks": {
-          "p1": "- Encarregat del disseny i desenvolupament web, i responsable de projected de terceres companyies clients.",
+          "p1": "- Encarregat del disseny i desenvolupament web, i responsable de projectes de terceres companyies clients.",
           "p2": "- Desenvolupament amb HTML, CSS, JS, PHP i SQL."
         }
       },

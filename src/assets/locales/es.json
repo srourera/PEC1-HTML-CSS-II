@@ -1,4 +1,8 @@
 {
+  "common": {
+    "now": "Actualidad",
+    "lang-switcher": "Haz click en los idiomas para cambiar el idioma del CV"
+  },
   "me": {
     "profession": "Ingeniero Informático",
     "age": "24 años",
@@ -8,5 +12,96 @@
     "catalan": "CATALÁN - Nativo",
     "spanish": "CASTELLANO - Nativo",
     "english": "INGLÉS - Intermedio (B+)"
+  },
+  "sections": {
+    "presentation": {
+      "title": "Presentación",
+      "p1": "He estudiado Ingeniería Informática, con una especialización en Ingeniería de Software, y actualmente estoy haciendo un Master en Gestión y Desarrollo de sitios y aplicaciones web de la UOC. He aprendido varios lenguajes de programación, las metodologías más utilizadas y métodos de programación reutilizables.",
+      "p2": "Tengo una fuerte pasión por programar y seguir aprendiendo. He trabajado en Inversa Serveis Informàtics y en Deloitte donde he colaborado con grandes equipos de trabajo en proyectos internacionales mediante una metodología ágil. Siempre estoy probando mis conocimientos con pequeños proyectos personales para seguir aprendiendo nuevas funcionalidades.",
+      "p3": "He estado trabajando en un proyecto internacional Scrum con Angular8 con microserveis Java (Spring) alojado en AWS. También ha realizado tareas de QA, tales como pruebas de Load & Performance con JMeter.",
+      "p4": "Soy una persona trabajadora, apasionada y perfeccionista. De trato fácil y agradable."
+    },
+    "education": {
+      "title": "Educación",
+      "1": {
+        "title": "Grado en Ingeniería Informática"
+      },
+      "2": {
+        "title": "Certificado Java"
+      },
+      "3": {
+        "title": "Master en Gestión y Desarrollo de sitios y aplicaciones web"
+      },
+      "group": {
+        "1": {
+          "title": "Jedy Academy",
+          "1": {
+            "title": "Curso HTML / CSS / JS",
+            "date": "07/2017"
+          },
+          "2": {
+            "title": "Curso Seguridad Informática",
+            "date": "07/2018"
+          },
+          "3": {
+            "title": "Curso Desarrollo iOS",
+            "date": "02/2019"
+          }
+        },
+        "2": {
+          "title": "Udemy Academy",
+          "1": {
+            "title": "Curso PHP & SQL",
+            "date": "09/2018"
+          },
+          "2": {
+            "title": "Curso React Native",
+            "date": "01/2019"
+          },
+          "3": {
+            "title": "Curso Angular",
+            "date": "04/2019"
+          }
+        }
+      }
+    },
+    "experience": {
+      "title": "Experiencia",
+      "1": {
+        "title": "Informático",
+        "tasks": {
+          "p1": "- Prácticas"
+        }
+      },
+      "2": {
+        "title": "Desarrollador Software",
+        "tasks": {
+          "p1": "- Encargado del diseño y desarrollo web, y responsable de proyectos de terceras compañías clientes.",
+          "p2": "- Desarrollo con HTML, CSS, JS, PHP y SQL."
+        }
+      },
+      "3": {
+        "title": "Fullstack developer & QA",
+        "tasks": {
+          "p1": "- FrontEnd lead de un proyecto internacional con Angular8, y sus respectivos Unit Tests con Karma y Jasmine.",
+          "p2": "- Metodologia Scrum con Jira, y utilitzando Git y Jenkins.",
+          "p3": "- Trabajando con microservicios implementados en Spring para el BackEnd del sistema, alojado en AWS.",
+          "p4": "- Reuniones internacionales con Webex, para comunicarse con clientes y desarrolladores de otros países.",
+          "p5": "- Tareas de QA, con JMeter para realizar Performance tests."
+        }
+      },
+      "4": {
+        "title": "FullStack developer",
+        "tasks": {
+          "p1": "- Rol de Senior Frontend, desarrollando todo el sistema Front de Housfy y MyHousfy con Nuxt.",
+          "p2": "- Ayudando al desarrollo Backend con Laravel.",
+          "p3": "- CD / CI con Bitbucket pipelines.",
+          "p4": "- Lead de SEO y de Performance optimization."
+        }
+      }
+    },
+    "skills": {
+      "title": "Habilidades"
+    }
   }
 }
