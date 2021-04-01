@@ -1,0 +1,39 @@
+/*------------------------------------*\
+  # EXPERIENCE STYLES
+\*------------------------------------*/
+
+@use '../theme';
+@use 'sass:color';
+
+.experience {
+  margin: theme.$spacing-2 0 theme.$spacing-4;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &__title {
+    text-transform: uppercase;
+    margin-bottom: theme.$spacing-2;
+  }
+
+  &__company {
+    font-style: italic;
+    margin-bottom: theme.$spacing-2;
+  }
+
+  &__date {
+    float: right;
+    color: color.scale(theme.$primary-color, $lightness: 20%);
+  }
+
+  &__tasks {
+    padding: theme.$spacing-2;
+    background-color: color.scale(theme.$primary-color, $lightness: 80%);
+    border: 1px solid color.scale(theme.$primary-color, $lightness: 20%);
+
+    > p:not(:last-child) {
+      margin-bottom: theme.$spacing-2;
+    }
+  }
+}

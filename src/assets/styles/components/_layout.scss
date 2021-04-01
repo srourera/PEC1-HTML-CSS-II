@@ -15,18 +15,33 @@
 
     &--2 {
       grid-template-columns: 1fr;
-      gap: theme.$spacing-4;
+      gap: 0;
 
       @include desktop {
         grid-template-columns: 1fr 1fr;
+        gap: theme.$spacing-4;
       }
     }
     &--3 {
       grid-template-columns: 1fr;
-      gap: theme.$spacing-4;
+      gap: 0;
 
       @include desktop {
         grid-template-columns: 1fr 1fr 1fr;
+        gap: theme.$spacing-4;
+      }
+    }
+
+    &--tablet {
+      &.layout__content--2 {
+        @include tablet {
+          grid-template-columns: 1fr 1fr;
+        }
+      }
+      &.layout__content--3 {
+        @include tablet {
+          grid-template-columns: 1fr 1fr 1fr;
+        }
       }
     }
   }

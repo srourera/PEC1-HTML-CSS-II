@@ -1,0 +1,34 @@
+/*------------------------------------*\
+  # SKILL STYLES
+\*------------------------------------*/
+
+@use '../theme';
+@use 'sass:color';
+
+.skill {
+  display: flex;
+  align-items: center;
+  margin: theme.$spacing-2 0;
+
+  &__label {
+    width: 150px;
+    text-transform: uppercase;
+  }
+
+  &__quantity {
+    flex: 1 1 0;
+    height: theme.$spacing-4;
+    background-color: color.scale(theme.$primary-color, $lightness: 70%);
+
+    > div {
+      height: 100%;
+      background-color: theme.$primary-color;
+
+      @each $size in 80, 90, 100 {
+        &.w-#{$size} {
+          width: $size * 1%;
+        }
+      }
+    }
+  }
+}

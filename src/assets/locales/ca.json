@@ -1,4 +1,8 @@
 {
+  "common": {
+    "now": "Actualitat",
+    "lang-switcher": "Fes click als idiomes per canviar l'idioma del CV"
+  },
   "me": {
     "profession": "Enginyer Informàtic",
     "age": "24 anys",
@@ -8,5 +12,96 @@
     "catalan": "CATALÀ - Natiu",
     "spanish": "CASTELLÀ - Natiu",
     "english": "ANGLÈS - Intermig (B+)"
+  },
+  "sections": {
+    "presentation": {
+      "title": "Presentació",
+      "p1": "He estudiat Enginyeria Informàtica, amb una especialització en Enginyeria de Programari, i actualment estic fent un Màster en Gestió i Desenvolupament de llocs i aplicacions web de la UOC. He après diversos llenguatges de programació, el més utilitzat metodologies i mètodes de programació reutilitzables.",
+      "p2": "Tinc una forta passió per programar i continuar aprenent. He treballat a Inversa Serveis Informàtics i a Deloitte on he col·laborat amb grans equips de treball en projectes internacionals mitjançant una metodologia àgil. Sempre estic provant els meus coneixements amb petits projectes personals per continuar aprenent noves funcions.",
+      "p3": "He estat treballant en un projecte internacional Scrum a Angular8 amb microserveis Java (Spring) allotjat a AWS. També he realitzat tasques de QA, com ara proves deLoad&Performance amb JMeter.",
+      "p4": "Sóc una persona treballadora, apassionada i perfeccionista. De tracte fàcil i agradable."
+    },
+    "education": {
+      "title": "Educació",
+      "1": {
+        "title": "Grau en Enginyeria Informática"
+      },
+      "2": {
+        "title": "Certificat Java"
+      },
+      "3": {
+        "title": "Màster en Gestió i Desenvolupament de llocs i aplicacions web"
+      },
+      "group": {
+        "1": {
+          "title": "Jedy Academy",
+          "1": {
+            "title": "Curs HTML / CSS / JS",
+            "date": "07/2017"
+          },
+          "2": {
+            "title": "Curs Seguretat Informàtica",
+            "date": "07/2018"
+          },
+          "3": {
+            "title": "Curs Desenvolupament iOS",
+            "date": "02/2019"
+          }
+        },
+        "2": {
+          "title": "Udemy Academy",
+          "1": {
+            "title": "Curs PHP & SQL",
+            "date": "09/2018"
+          },
+          "2": {
+            "title": "Curs React Native",
+            "date": "01/2019"
+          },
+          "3": {
+            "title": "Curs Angular",
+            "date": "04/2019"
+          }
+        }
+      }
+    },
+    "experience": {
+      "title": "Experiència",
+      "1": {
+        "title": "Informátic",
+        "tasks": {
+          "p1": "- Prácticas"
+        }
+      },
+      "2": {
+        "title": "Desenvolupador Software",
+        "tasks": {
+          "p1": "- Encarregat del disseny i desenvolupament web, i responsable de projected de terceres companyies clients.",
+          "p2": "- Desenvolupament amb HTML, CSS, JS, PHP i SQL."
+        }
+      },
+      "3": {
+        "title": "Fullstack developer & QA",
+        "tasks": {
+          "p1": "- FrontEnd lead d'un projecte internacional amb Angular8, i respectius Unit Tests amb Karma i Jasmine.",
+          "p2": "- Metodología Scrum amb Jira, i utilitzant Git i Jenkins.",
+          "p3": "- Treballant amb microserveis implementats en Spring pel BackEnd del sistema, allotjat a AWS.",
+          "p4": "- Reunions internacionals amb Webex, per comunicar-nos amb clients i desenvolupadors d'altres paisos.",
+          "p5": "- Tasques de QA, amb JMeter per realitzar Performance tests."
+        }
+      },
+      "4": {
+        "title": "FullStack developer",
+        "tasks": {
+          "p1": "- Rol de Senior FrontEnd, desenvolupant tot el sistema Front de Housfy i MyHousfy amb Nuxt.",
+          "p2": "- Ajudant al desenvolupament Backend amb Laravel.",
+          "p3": "- CD / CI amb Bitbucket pipelines.",
+          "p4": "- Lead de SEO i de Performance optimization."
+        }
+      }
+    },
+    "skills": {
+      "title": "Habilitats"
+    }
   }
 }

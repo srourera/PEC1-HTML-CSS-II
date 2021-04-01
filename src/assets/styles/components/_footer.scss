@@ -1,5 +1,5 @@
 /*------------------------------------*\
-  # HEADER STYLES
+  # FOOTER STYLES
 \*------------------------------------*/
 
 @use '../theme';
@@ -18,6 +18,7 @@
     align-items: center;
     justify-content: center;
     padding: 0 theme.$spacing-4;
+    margin: theme.$spacing-2 0;
     cursor: pointer;
 
     > svg {
@@ -30,7 +31,13 @@
     }
 
     @include desktop {
-      justify-content: start;
+      margin: 0;
     }
+  }
+
+  &__switcher {
+    text-align: center;
+    padding-bottom: theme.$spacing-2;
+    color: white;
   }
 }

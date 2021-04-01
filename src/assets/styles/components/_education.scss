@@ -1,0 +1,80 @@
+/*------------------------------------*\
+  # EDUCATION STYLES
+\*------------------------------------*/
+
+@use '../theme';
+@use 'sass:color';
+
+.education {
+  margin: theme.$spacing-2 0 theme.$spacing-8;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &__icon {
+    float: left;
+    font-size: theme.$font-xl;
+    margin-right: theme.$spacing-2;
+    color: color.scale(theme.$primary-color, $lightness: -30%);
+  }
+
+  &__title,
+  &__university,
+  &__faculty {
+    margin-bottom: theme.$spacing-2;
+  }
+
+  &__title {
+    font-size: theme.$font-xl;
+    text-transform: uppercase;
+  }
+
+  &__university {
+    text-transform: uppercase;
+  }
+
+  &__faculty {
+    color: color.scale(theme.$primary-color, $lightness: 20%);
+  }
+
+  &__date {
+    color: color.scale(theme.$primary-color, $lightness: 20%);
+    font-weight: bold;
+  }
+}
+
+.education-group {
+  margin: theme.$spacing-2 0 theme.$spacing-8;
+
+  &__icon {
+    float: left;
+    font-size: theme.$font-xl;
+    margin-right: theme.$spacing-2;
+    color: color.scale(theme.$primary-color, $lightness: -30%);
+  }
+
+  &__title,
+  &__list > li {
+    margin-bottom: theme.$spacing-2;
+  }
+
+  &__title {
+    font-weight: normal;
+    font-size: theme.$font-xl;
+    text-transform: uppercase;
+  }
+
+  &__list {
+    list-style: none;
+    padding-left: theme.$spacing-4;
+    text-transform: uppercase;
+  }
+
+  &__date {
+    float: right;
+    color: color.scale(theme.$primary-color, $lightness: 20%);
+    font-size: theme.$font-sm;
+    font-weight: bold;
+  }
+}

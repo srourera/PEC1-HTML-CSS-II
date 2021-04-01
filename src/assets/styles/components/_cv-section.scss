@@ -1,0 +1,48 @@
+/*------------------------------------*\
+  # CV SECTIONS STYLES
+\*------------------------------------*/
+
+@use '../theme';
+
+.cv-section {
+  padding: theme.$spacing-4 theme.$spacing-2;
+
+  &__title {
+    display: flex;
+
+    > i {
+      padding: theme.$spacing-4;
+      margin-right: theme.$spacing-4;
+      color: white;
+      background-color: theme.$primary-color;
+      border-radius: theme.$spacing-2;
+    }
+
+    h3 {
+      flex: 1 1 0;
+      line-height: theme.$spacing-12;
+      text-transform: uppercase;
+      border-bottom: 1px solid black;
+    }
+  }
+
+  &__content {
+    text-align: justify;
+
+    &--text {
+      padding: theme.$spacing-2 0;
+
+      > p {
+        padding: theme.$spacing-2;
+      }
+    }
+
+    &--with-padding {
+      padding: theme.$spacing-4 theme.$spacing-2;
+    }
+  }
+
+  @include tablet {
+    padding: theme.$spacing-4;
+  }
+}
